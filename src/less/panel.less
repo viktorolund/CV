@@ -1,0 +1,26 @@
+.panel-title {
+    font-weight: bold;
+}
+
+.panel-heading.collapsable {
+    cursor: pointer;
+}
+
+/* Visual effect made by 'biggates' */
+.panel-heading .accordion-toggle:after {
+    /* symbol for "opening" panels */
+    font-family: 'Glyphicons Halflings';  /* essential for enabling glyphicon */
+    content: "\e114";    /* adjust as needed, taken from bootstrap.css */
+    float: right;        /* adjust as needed */
+    color: grey;         /* adjust as needed */
+}
+
+.panel-heading.collapsed .accordion-toggle:after {
+    /* symbol for "collapsed" panels */
+    content: "\e080";    /* adjust as needed, taken from bootstrap.css */
+}
+
+// .panel-heading .accordion-toggle.collapsed:after {
+//     /* symbol for "collapsed" panels */
+//     content: "\e080";    /* adjust as needed, taken from bootstrap.css */
+// }

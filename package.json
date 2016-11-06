@@ -1,0 +1,25 @@
+{
+  "name": "cv",
+  "version": "2.1.0",
+  "description": "Ett cv om mig",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "jest",
+    "build": "gulp build",
+    "deploy": "gulp deploy",
+    "watch:all": "gulp watch:all",
+    "postinstall": "bower install",
+    "version": "gulp changelog && git add -A CHANGELOG.md",
+    "postversion": "git push && git push --tags"
+  },
+  "author": "Viktor Ölund",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-conventional-changelog": "^1.1.0",
+    "gulp-gh-pages": "^0.5.4",
+    "gulp-less": "^3.1.0",
+    "jest": "^16.0.2",
+    "wiredep": "^4.0.0"
+  }
+}
