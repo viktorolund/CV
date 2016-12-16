@@ -2,11 +2,15 @@
   "name": "cv",
   "version": "3.0.0",
   "description": "Ett cv om mig",
+  "engines": {
+    "node": "7.2.1"
+  },
   "main": "gulpfile.js",
   "scripts": {
     "test": "jest",
     "build": "gulp build",
-    "deploy": "gulp deploy",
+    "start": "node app.js",
+    "debug": "node --inspect --debug-brk",
     "watch:all": "gulp watch:all",
     "postinstall": "bower install",
     "version": "gulp changelog && git add -A CHANGELOG.md",
@@ -17,9 +21,13 @@
   "devDependencies": {
     "gulp": "^3.9.1",
     "gulp-conventional-changelog": "^1.1.0",
-    "gulp-gh-pages": "^0.5.4",
     "gulp-less": "^3.1.0",
     "jest": "^16.0.2",
     "wiredep": "^4.0.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "ejs": "^2.5.3",
+    "express": "^4.14.0"
   }
 }

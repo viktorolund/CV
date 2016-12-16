@@ -18,7 +18,13 @@
         <!-- endbower -->
 
         <script src="js/app/services/fullpage-config.js"></script>
-        <script src="js/app/main.js"></script>
+
+        <script src="js/app/app.module.js"></script>
+        <script src="js/app/main.controller.js"></script>
+
+        <script src="js/app/services/interceptor.service.js"></script>
+        <script src="js/app/services/data.service.js"></script>
+
         <script src="js/app/layout/timeline.controller.js"></script>
         <script src="js/app/layout/footer.directive.js"></script>
     </head>
@@ -33,19 +39,19 @@
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                         </button>
-                        <a href="#" class="navbar-brand hidden-xs"><img class="logo-small" src="images/page_logo.png"></a>
+                        <a href="/" class="navbar-brand hidden-xs"><img class="logo-small" src="images/page_logo.png"></a>
                     </div>
 
                     <div class="collapse navbar-collapse" id="page-navbar">
                         <ul id="bsmenu" class="nav navbar-nav">
-                            <li class="nav-item active" data-menuanchor="about">
-                                <a class="nav-link" href="#about">Om</a>
+                            <li class="active">
+                                <a href="" id="about">Om</a>
                             </li>
-                            <li class="nav-item" data-menuanchor="knowledge">
-                                <a class="nav-link" href="#knowledge">Kunskaper</a>
+                            <li>
+                                <a href="" id="knowledge">Kunskaper</a>
                             </li>
-                            <li class="nav-item" data-menuanchor="career">
-                                <a class="nav-link" href="#career">Karriär</a>
+                            <li>
+                                <a href="" id="career">Karriär</a>
                             </li>
                         </ul>
                     </div>

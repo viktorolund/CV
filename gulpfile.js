@@ -5,16 +5,10 @@ var gulp = require('gulp'),
     less = require('gulp-less'),
     path = require('path'),
     changelog = require('gulp-conventional-changelog'),
-    ghPages = require('gulp-gh-pages'),
     buildSrc = {},
     buildTaskNames = [],
     buildTasks,
     watchTasks;
-
-gulp.task('deploy', function() {
-  return gulp.src('./dist/**/*')
-    .pipe(ghPages());
-});
 
 gulp.task('changelog', () => {
   return gulp.src('CHANGELOG.md', {

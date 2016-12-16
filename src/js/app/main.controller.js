@@ -1,11 +1,6 @@
 (function() {
     'use strict';
 
-    angular.module('cv', [
-        'ngSanitize',
-        'angular-timeline'
-    ]);
-
     angular
         .module('cv')
         .controller('mainController', mainController);
