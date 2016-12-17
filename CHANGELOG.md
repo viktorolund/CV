@@ -1,3 +1,14 @@
+<a name="3.1.0"></a>
+# [3.1.0](https://github.com/viktorolund/cv/compare/v3.0.0...v3.1.0) (2016-12-17)
+
+
+### Features
+
+* **node express:** app build with node express ([05d75c2](https://github.com/viktorolund/cv/commit/05d75c2))
+* **versioning:** versioning of express ([6b1cc5f](https://github.com/viktorolund/cv/commit/6b1cc5f))
+
+
+
 <a name="3.0.0"></a>
 # 3.0.0 (2016-11-06)
 
