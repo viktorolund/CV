@@ -1,3 +1,13 @@
+<a name="3.1.1"></a>
+## [3.1.1](https://github.com/viktorolund/cv/compare/v3.1.0...v3.1.1) (2016-12-17)
+
+
+### Bug Fixes
+
+* **build:** client app added to git ([d50025a](https://github.com/viktorolund/cv/commit/d50025a))
+
+
+
 <a name="3.1.0"></a>
 # [3.1.0](https://github.com/viktorolund/cv/compare/v3.0.0...v3.1.0) (2016-12-17)
 
