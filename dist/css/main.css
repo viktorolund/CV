@@ -41,3 +41,6 @@ body {
 .field-margin {
   margin-top: 25px;
 }
+.fa-icon-success {
+  color: #5cb85c;
+}

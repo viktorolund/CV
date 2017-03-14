@@ -18,7 +18,8 @@
     "jquery-ui": "^1.12.1",
     "bootstrap": "^3.3.7",
     "fullpage.js": "^2.8.9",
-    "angular-timeline": "^1.7.0"
+    "angular-timeline": "^1.7.0",
+    "components-font-awesome": "^4.7.0"
   },
   "overrides": {
     "bootstrap": {
