@@ -1,3 +1,8 @@
+<a name="3.2.0"></a>
+# [3.2.0](https://github.com/viktorolund/cv/compare/v3.1.1...v3.2.0) (2017-03-14)
+
+
+
 <a name="3.1.1"></a>
 ## [3.1.1](https://github.com/viktorolund/cv/compare/v3.1.0...v3.1.1) (2016-12-17)
 
