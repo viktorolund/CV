@@ -12,8 +12,7 @@
     "start": "node app.js",
     "build": "gulp build",
     "watch:all": "gulp watch:all",
-    "install": "bower install",
-    "postinstall": "npm run build",
+    "postinstall": "bower install",
     "release": "standard-version"
   },
   "author": "Viktor Ölund",
