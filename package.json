@@ -1,6 +1,6 @@
 {
   "name": "cv",
-  "version": "3.2.1",
+  "version": "3.2.2",
   "description": "Ett cv om mig",
   "engines": {
     "node": "6.10.3",
