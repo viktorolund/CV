@@ -22,7 +22,7 @@
     "gulp": "^3.9.1",
     "gulp-less": "^3.3.0",
     "jest": "^16.0.2",
-    "release": "^1.2.2",
+    "standard-version": "^4.0.0",
     "wiredep": "^4.0.0"
   },
   "dependencies": {
