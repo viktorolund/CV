@@ -4,23 +4,10 @@ var gulp = require('gulp'),
     wiredep = require('wiredep').stream,
     less = require('gulp-less'),
     path = require('path'),
-    changelog = require('gulp-conventional-changelog'),
     buildSrc = {},
     buildTaskNames = [],
     buildTasks,
     watchTasks;
-
-gulp.task('changelog', () => {
-  return gulp.src('CHANGELOG.md', {
-    buffer: false
-  })
-    .pipe(changelog({
-      preset: 'angular'
-      //,
-      //releaseCount: 0
-    }))
-    .pipe(gulp.dest('./'));
-});
 
 buildSrc = {
     styles: {
@@ -36,7 +23,7 @@ buildSrc = {
             dest: 'dist',
             dependencies: ['src/index.html'],
             wiredepOptions: {
-                ignorePath: "../dist/"
+                ignorePath: '../dist/'
             }
         },
         partials: {
@@ -109,7 +96,7 @@ Object.keys(buildSrc).map(function(buildTask) {
      *  Add task to watch all tasks
      *  gulp.task('watch:all', [<taskone>:watch, <tasktwo>:watch, ...]);
      */
-    watchTasks = buildTaskNames.map((t) => { return "watch:" + t });
-    gulp.task("watch:all", watchTasks);
+    watchTasks = buildTaskNames.map((t) => { return 'watch:' + t });
+    gulp.task('watch:all', watchTasks);
 
 });

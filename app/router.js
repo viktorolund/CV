@@ -25,14 +25,11 @@ function routePermission(req, res, next) {
  */
 router.route('/career')
     .get(routePermission, function(req, res) {
-
         new Career().find(function(career, err) {
             if (err) res.send(err);
 
             res.json(career);
-
         });
-
     });
 
 module.exports = router;

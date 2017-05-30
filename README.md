@@ -1,10 +1,21 @@
 Install dependencies
 ```bash
-npm install
+yarn install
 ```
 
-## Deployment
-Before deploying you need to build the source files
+## Dev
+Devserver
 ```bash
-npm run build
+yarn start
+```
+
+## Deploy
+Production
+```bash
+yarn build
+```
+
+Automatic generate changelog
+```bash
+yarn release
 ```

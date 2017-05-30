@@ -3,33 +3,32 @@
   "version": "3.2.0",
   "description": "Ett cv om mig",
   "engines": {
-    "node": "6.9.2",
-    "npm": "4.0.5"
+    "node": "6.10.3",
+    "npm": "4.6.1"
   },
   "main": "app.js",
   "scripts": {
     "test": "jest",
-    "build": "gulp build",
     "start": "node app.js",
-    "debug": "node --inspect --debug-brk",
+    "build": "gulp build",
     "watch:all": "gulp watch:all",
-    "postinstall": "./node_modules/.bin/bower install",
-    "version": "gulp changelog && git add -A CHANGELOG.md",
-    "postversion": "git push && git push --tags"
+    "install": "bower install",
+    "postinstall": "yarn build",
+    "release": "standard-version"
   },
   "author": "Viktor Ölund",
   "license": "ISC",
   "devDependencies": {
     "gulp": "^3.9.1",
-    "gulp-conventional-changelog": "^1.1.0",
-    "gulp-less": "^3.1.0",
+    "gulp-less": "^3.3.0",
     "jest": "^16.0.2",
+    "release": "^1.2.2",
     "wiredep": "^4.0.0"
   },
   "dependencies": {
-    "body-parser": "^1.15.2",
+    "body-parser": "^1.17.2",
     "bower": "^1.8.0",
-    "ejs": "^2.5.3",
-    "express": "^4.14.0"
+    "ejs": "^2.5.6",
+    "express": "^4.15.3"
   }
 }
