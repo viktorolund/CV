@@ -1,3 +1,17 @@
+# Change Log
+
+All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+
+<a name="3.2.1"></a>
+## [3.2.1](https://github.com/viktorolund/cv/compare/v3.2.0...v3.2.1) (2017-05-30)
+
+
+### Bug Fixes
+
+* **package, router:** updated packages, generate changelog with release, codestyle in router ([ba495b1](https://github.com/viktorolund/cv/commit/ba495b1))
+
+
+
 <a name="3.2.0"></a>
 # [3.2.0](https://github.com/viktorolund/cv/compare/v3.1.1...v3.2.0) (2017-03-14)
 

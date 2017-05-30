@@ -28,5 +28,6 @@
         "dist/css/bootstrap.css"
       ]
     }
-  }
+  },
+  "version": "3.2.1"
 }
